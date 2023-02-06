@@ -7,7 +7,7 @@ For help after this workshop, contact me at kgj2@cornell.edu
 Or set up a Zoom appointment at <https://guides.library.cornell.edu/gis/help>
 
 All the data and documentation for this workshop can be downloaded from:  
-<https://github.com/kgjenkins/arch-3102-miami/archive/main.zip>
+<https://cornell.app.box.com/folder/193487073667>
 
 
 ## Some GIS Concepts
