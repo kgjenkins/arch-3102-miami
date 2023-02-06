@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>psde2.MDC.GeoStreets</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>A line feature class of Miami-Dade County streets with seamless address ranges. This feature class (FC) is one of a set of FC's derived from our main Streets FC, which were created to display street information.CLASS -- ROAD TYPE -- DEFINITION==================================0 -- Expressway Ramp -- Access ramps to expressways only1 -- Expressway -- Limited access roadways2 -- Highway -- Non-Limited access highways examples: US 1, KROME AVE3 -- Major Road -- Major roads that serve a large volume of traffic4 -- Feeder Road -- Roads that connect major roads and minor roads5 -- Minor Road -- Any other road recognized as a street6 -- Alley -- Roads serving as secondary means of vehicular access7 -- Non Paved -- Dirt roads, farm or maintenance8 -- Driveway, Accessway9 -- New Subdivision -- New subdivision - planned roadwayUpdated: Weekly-Sat The data was created using: Projected Coordinate System: WGS_1984_Web_Mercator_Auxiliary_SphereProjection: Mercator_Auxiliary_Sphere</abstract>
+            <purpose>A line feature class of Miami-Dade County streets with seamless address ranges.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-125.999996</westbc>
+                <eastbc>-51.000171</eastbc>
+                <northbc>25.983689</northbc>
+                <southbc>-89.999991</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Florida</themekey>
+                <themekey>Miami-Dade County</themekey>
+                <themekey>MDC</themekey>
+                <themekey>County Government</themekey>
+                <themekey>Local Government</themekey>
+                <themekey>WGS84</themekey>
+                <themekey>Transportation</themekey>
+                <themekey>Street</themekey>
+                <themekey>Road</themekey>
+                <themekey>ITD</themekey>
+                <themekey>Information Technology Department</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.1.11595</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>psde2.MDC.GeoStreets_sc</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STREETID</attrlabl>
+                <attrdef>Street unique indentifier.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STREET_ID_OLD</attrlabl>
+                <attrdef>Old Street unique indentifier used on the legacy coverage format.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>L_ADD_FROM</attrlabl>
+                <attrdef>Start of the left address range.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>L_ADD_TO</attrlabl>
+                <attrdef>End of the left address range.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>R_ADD_FROM</attrlabl>
+                <attrdef>Start of the right address range.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>R_ADD_TO</attrlabl>
+                <attrdef>End of the right address range.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PRE_DIR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ST_NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ST_TYPE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SUF_DIR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LZIP</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>RZIP</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LMUNIC</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LMUNIC_NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>RMUNIC</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>RMUNIC_NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CLASS</attrlabl>
+                <attrdef>Road Type Classification.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FROM_TO_IMP</attrlabl>
+                <attrdef>Lengh of the street arc, or -1 if traffic is not allowed going form the begining of the arc to the end as it was digitized.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>TO_FROM_IMP</attrlabl>
+                <attrdef>Lengh of the street arc, or -1 if traffic is not allowed going form the end of the arc to the beginning  as it was digitized.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SNAME</attrlabl>
+                <attrdef>Complete Street Name = PRE_DIR + ST_NAME + ST_TYPE + SUF_DIR</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GlobalID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.STLength()</attrlabl>
+            </attr>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>STAD.StreetHasAddressRanges</enttypl>
+            </enttyp>
+        </detailed>
+        <overview>
+            <eaover>Below is a list for the attributes tha can be found in all of our Street's derivative producs, with a description, and a list of the products (FeatureClasses) where the specific street attribute can be found:
+  GeoStreets --&gt; An Arc FeatureClass of Miami-Dade County streets with seamless address ranges.
+  GeoActualRanges --&gt; An Arc FeatureClass of Miami-Dade County treets with actual address ranges.
+  St_Dade --&gt; An Arc FeatureClass of Miami-Dade County treets in a Coverage Structure.
+  GeoIntersection --&gt; A Point FeatureClass of Miami-Dade County streets' intersections.
+  CartoStreets --&gt; A Polygon FreatureClass Miami-Dade County street created from the street base layer using a process called "buffer". It was designed for cartographic display purposes and does not have attributes.
+
+STREETID
+  FeatureClasses containing this Field: GeoStreets, GeoActualRanges, St_Dade, StreetMaint
+  Field Description: Street unique indentifier.
+  
+
+STREETID_ID_OLD
+  FeatureClasses using this Field:GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Street unique indentifier used on the legacy coverage format.
+
+
+L_ADD_FROM
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Start of the left address range.
+
+
+L_ADD_TO
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: End of the left address range.
+
+
+R_ADD_FROM
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Start of the right address range.
+
+
+R_ADD_TO
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: End of the right address range.
+
+
+PRE_DIR 
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Street direction prefix (N, S, E, W, NE, NW, SE, SW).
+
+
+ST_NAME
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Street name --&gt; If the street name only contains one type this attribute contains only the name of the street. If the street name contains dual street types this attribute contains the name and the first type un-abbreviated.
+
+
+ST_TYPE
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Street Type --&gt; If the street name only contains one type this attribute contains the type abbreviation. If the street name contains dual street types this attribute contains the second type abbreviation.
+
+
+SUF_DIR
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Street direction suffix (N, S, E, W, NE, NW, SE, SW).
+
+
+SNAME
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade, StreetMaint
+  Field Description: Complete Street Name = PRE_DIR + ST_NAME + ST_TYPE + SUF_DIR
+
+
+LZIP
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Left zipcode depending on the direction the feature was digitized.
+
+
+RZIP
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Right zipcode depending on the direction the feature was digitized.
+
+
+LMUNIC
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade, StreetMaint
+  Field Description: Left municipality depending on the direction the feature was digitized.
+
+
+RMUNIC
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade, StreetMaint
+  Field Description: Right municipality depending on the direction the feature was digitized.
+
+
+FROM_TO_IMP
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Lengh of the street arc, or -1 if traffic is not allowed going form the begining of the arc to the end as it was digitized.
+
+
+TO_FROM_IMP
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade
+  Field Description: Lengh of the street arc, or -1 if traffic is not allowed going form the end of the arc to the beginning  as it was digitized.
+
+
+CLASS
+  FeatureClasses using this Field: GeoStreets, GeoActualRanges, St_Dade, StreetMaint
+  Field Description: Road Type Classification.
+
+  CLASS -- ROAD TYPE -- DEFINITION
+  ==================================
+  0 -- Expressway Ramp -- Access ramps to expressways only
+  1 -- Expressway -- Limited access roadways
+  2 -- Highway -- Non-Limited access highways examples: US 1, KROME AVE
+  3 -- Major Road -- Major roads that serve a large volume of traffic
+  4 -- Feeder Road -- Roads that connect major roads and minor roads
+  5 -- Minor Road -- Any other road recognized as a street  
+  6 -- Alley -- Roads serving as secondary means of vehicular acces
+  7 -- Non Paved -- Dirt roads, farm or maintenance
+  8 -- Driveway, Accessway		
+  9 -- New Subdivision -- New subdivision - planned roadway
+
+
+ONEWAY
+  FeatureClasses using this Field: StreetMaint
+  Field Description: Direction the traffic goes on the road.
+
+  ONEWAY -- DEFINITION
+  =============================
+  B -- Both Directions
+  FT -- From direction to the To direction
+  TF -- To direction to the From direction
+
+
+MAINTCODE
+  FeatureClasses using this Field: StreetMaint
+  Field Description: Who maintains the road.
+
+  MAINTCODE -- DEFINITION
+  =============================
+  AP -- Airport/Port maintained
+  CC -- County/City maintained
+  CI -- City maintained
+  CM -- County maintained within city
+  CO -- County maintained
+  PC -- Private City
+  PR -- Private ROW County
+  SR -- State maintained
+  U -- Unknown
+  UR -- Undeveloped ROW
+
+
+F_ZLEV
+  FeatureClasses using this Field: StreetMaint
+  Field Description: Elevation from the beginning of the arc to the end, depending on the direction the arc was digitized.
+
+  F_ZLEV -- DEFINITION
+  =============================
+  0 -- Ground Level
+  1 -- Raised Elevation
+  2 -- Raised Elevation Level 2
+  3 -- Raised Elevation Level 3
+
+
+T_ZLEV
+  FeatureClasses using this Field: StreetMaint
+  Field Description: Elevation from the end of the arc to the beginning, depending on the direction the arc was digitized.
+
+  T_ZLEV -- DEFINITION
+  =============================
+  0 -- Ground Level
+  1 -- Raised Elevation
+  2 -- Raised Elevation Level 2
+  3 -- Raised Elevation Level 3
+
+
+SPEEDLIMIT
+  FeatureClasses using this Field: StreetMaint
+  Field Description: Speed Limit
+
+
+LANES
+  FeatureClasses using this Field: StreetMaint
+  Field Description: Number of traffic lanes.
+
+
+ST_WIDTH
+  FeatureClasses using this Field: StreetMaint
+  Field Description: This field specifies the width, in feet, of the buffer used to create the derivative product CartoStreets.</eaover>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Feature Class</formname>
+                </digtinfo>
+                <digtopt/>
+            </digform>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20220610</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
