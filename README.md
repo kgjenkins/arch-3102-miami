@@ -4,5 +4,5 @@ Spring 2023
 
 Online at https://kgjenkins.github.io/arch-3102-miami/
 
-[workshop 1](workshop1)
+[workshop 1](workshop1)  
 [workshop 2](workshop2)
