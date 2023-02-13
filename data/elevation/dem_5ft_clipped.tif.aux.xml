@@ -1,0 +1,13 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>ITD_DEM</Description>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">40.604999542236</MDI>
+      <MDI key="STATISTICS_MEAN">8.5211992962019</MDI>
+      <MDI key="STATISTICS_MINIMUM">-11.464981079102</MDI>
+      <MDI key="STATISTICS_STDDEV">4.3183164723615</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">93.3</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

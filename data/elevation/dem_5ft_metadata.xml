@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>
+          GPI Geospatial Inc.
+        </origin>
+        <pubdate>
+          20191004
+        </pubdate>
+        <title>
+          GPI_DEM_2018
+        </title>
+        <geoform>
+          digital map
+        </geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+        Bare-earth 5-foot DEM as 32-bit floating point raster format in ARCGIS GRID Raster format in
+        compliance with USGS LIDAR Base Specifications such as: georeferencing information,
+        delivered without overlap and with no edge artifacts or mismatched, “NODATA” value for void
+        areas, bridges removed from the surface, etc.
+      </abstract>
+      <purpose>
+        This is a Digital Elevation Model (DEM) as a raster mosaic in ESRI float format 32bit
+        representation on a 5ft grid created from the LiDAR collected for the 2018_ITD_LiDAR project
+        for the Miami-Dade County Information Technology Department (ITD). The DEM extent is
+        Miami-Dade County as provided by ITD.
+      </purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>
+            20180425
+          </begdate>
+          <enddate>
+            20181205
+          </enddate>
+        </rngdates>
+      </timeinfo>
+      <current>
+        ground condition
+      </current>
+    </timeperd>
+    <status>
+      <progress>
+        COMPLETE
+      </progress>
+      <update>
+        As needed
+      </update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+          -80.8825255556
+        </westbc>
+        <eastbc>
+          -80.105244
+        </eastbc>
+        <northbc>
+          26.0255653056
+        </northbc>
+        <southbc>
+          25.2250032222
+        </southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>
+          none
+        </themekt>
+        <themekey>
+          LiDAR
+        </themekey>
+        <themekey>
+          METADATA
+        </themekey>
+        <themekey>
+          DEM
+        </themekey>
+      </theme>
+      <place>
+        <placekt>
+          None
+        </placekt>
+        <placekey>
+          Florida
+        </placekey>
+        <placekey>
+          Miami-Dade
+        </placekey>
+      </place>
+    </keywords>
+    <accconst>
+      None
+    </accconst>
+    <useconst>
+      None. However, users should be aware that temporal changes may have occurred since this
+      dataset was collected and that someparts of the data may no longer represent actual surface
+      conditions. Users should not use the data for critical applications without a full awareness
+      of the limitations of the data. The data was collected under the supervision of a Florida
+      licensed Surveyor and Mapper in compliance with Florida Statute 472.000.
+    </useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>
+            GPI Geospatial Inc.
+          </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>
+            mailing and physical
+          </addrtype>
+          <address>
+            423 S Keller Road #300
+          </address>
+          <city>
+            Orlando
+          </city>
+          <state>
+            FL
+          </state>
+          <postal>
+            32810
+          </postal>
+        </cntaddr>
+        <cntvoice>
+          407-851-7880
+        </cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <datacred>
+      GPI Geospatial Inc.
+    </datacred>
+    <native>
+      Microsoft Windows 10 pro; Esri ArcGIS 10.6.1.9270
+    </native>
+    <crossref>
+      <citeinfo>
+        <origin>
+          GPI Geospatial Inc.
+        </origin>
+        <pubdate>
+          20191004
+        </pubdate>
+        <title>
+          GPI_DEM_2018
+        </title>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+        The LiDAR data was registered to ground control established by GPI Geospatial Inc. in 2018
+        for the collection of LiDAR and Orthophotography of that year.This control is adequate to
+        support the accuracy specifications identified for this project. The surveyor’s report
+        documents and certify the procedures and accuracies of the horizontal and vertical control,
+        aircraft positioning systems, and system calibration procedures used in this LiDAR mapping
+        project. The horizontal and vertical control is based on direct ties to National Geodetic
+        Survey (NGS) control stations, National Spatial Reference System (NSRS). The horizontal
+        control references the North American Datum of 1983/2011current published datum
+        (NAD_1983_2011_StatePlane_Florida_East_FIPS_0901_Feet). The vertical control references the
+        NAVD88 using Geoid 12B to perform computations from ellipsoidal heights to orthometric
+        heights. The vertical accuracy of the newly-established ground control is within one third
+        of the specified LiDAR Fundamental Vertical Accuracy. All surveying &amp; mapping performed
+        for this project meets or exceeds FEMA Flood Hazard Mapping Program, Guidelines and
+        Specifications for Flood Hazard Mapping Partners, Appendix A, Section A.5 Ground Control,
+        and Section A.6 Ground Surveys and as superseded by Procedure Memorandum No.61 – Standards
+        for LiDAR and Other High Quality Digital Topography, 27 September 2010.GPI Geospatial Inc.
+        collected the data at 20 points per square meter.
+      </attraccr>
+    </attracc>
+    <logic>
+      See vendor's report
+    </logic>
+    <complete>
+      Data set has been visually inspected. All data produced strives to meet National Mapping
+      Accuracy Standards (NMAS).
+    </complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+          ASPRS does not require horizontal accuracy testing of LiDAR-derived elvation products.
+        </horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+          This product meets or exceeds the stated specifications for the state of Florida. The
+          Vertical Accuracy for LiDAR data over well-defined surfaces was tested 0.204 feet vertical
+          accuracy at 95 percent confidence level.as set forth in the FGDC Geospatial Positioning
+          Accuracy Standards, Part 3: NSSDA. 65 check points were distributed throughout the project
+          area.See vendor's report. North American Vertical Datum of 1988 (NAVD88).
+        </vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+              GPI Geospatial Inc.
+            </origin>
+            <pubdate>
+              20191004
+            </pubdate>
+            <title>
+              GPI_DEM_2018
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>
+                20180425
+              </begdate>
+              <enddate>
+                20181205
+              </enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>
+            ground condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          Project Metadata
+        </srccitea>
+        <srccontr>
+          GPI Geospatial Inc.
+        </srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+          The project was divided in two phases: Collection and classification of LiDAR data; and
+          creation of 5-foot cell spaced hydro enforced mosaic DEM of the project area. The LiDAR
+          data was collected utilizing a Riegl VQ-1560i in a Cessna 206 from an approximate altitude
+          of 4,200 feet above ground level, at an approximate ground speed of 110 knots at a pulse
+          rate repetition of 2000 kHg, resulting in an average of 15.2 points per square meter
+          single swath and 20 plus with the 55% overlap. To get under the cloud celling some flight
+          lines were collected at 2,000 feet agl at 110 knots. These lines were collected at 29.12
+          points per square meter single swath. The sensor used a 60-degree field of view. The
+          project was flown to have 55 percent overlap between swaths. The Global Positioning System
+          (GPS) data were processed using Applanix POSPac Mapping Suite version 8.3 using Smart Base
+          method and single base methods. A fixed bias carrier phase solution was computed in
+          forward and reverse directions. The LiDAR collection took place when Positional Dilution
+          of Precision (PDOP) was at or below 3. Occasionally, the PDOP rose slightly above 3. This
+          had no effect on the data. The GPS trajectory was combined with the IMU data using the
+          Applanix POSPac software. The resulting Smoothed Best Estimate of Trajectory (SBET) was
+          exported and used in Riegl RiProcess software to compute the laser mass point positions in
+          Northing, Easting, and Elevations coordinates.The raw laser data were merged with the SBET
+          using Riegl RiProcess software. The data set was processed using RiProcess, RiAnalyze, and
+          RiWorld software where each flight line was processed to a point cloud. The data was
+          adjusted flight line to flight line using Riegl’s Scan Data Adjustment tool to ensure a
+          proper relative calibration match between flight lines. Each flight was checked for
+          project coverage, data gaps between overlapping flight lines, point density and then
+          exported in LAS 1.4 format. The entire project was collected without gaps. The LAS files
+          were projected to the NAD_1983_2011_StatePlane_Florida_East_FIPS_0901_Feet and North
+          American Vertical Datum of 1988 (NAVD88). Ellipsoidal heights were converted to
+          orthometric heights using the current Geiod12B. The LAS files were imported to TerraSolid,
+          LTD TerraScan software to be classified to bare earth ground and later feature coded to
+          USGS specifications. The LAS files contain 12 classifications: 1 = unclassified; 2 =
+          ground; 3 = low veg; 4 = med veg; 5 = high veg; 6 = building; 7 = noise points; 9 = water;
+          10 = buffered ground points surrounding breaklines; 12 = overlap; 17 = overpass and
+          bridges; 18 = high noise. The LiDAR data was run through an automated ground and building
+          classification using terrascan software. A manual check of the building classification was
+          done. The vegetation heights were assigned by an automated process after the bare-earth
+          and buildings were classified. No manual classification of the vegetation class was
+          performed on this data set. Breaklines were digitized from the LiDAR data in Microstation
+          and elevations were assigned using LP360 and ArcGIS. The double line linear hydrographic
+          features were hydro-enforced with downhill constraints to model correct flow patterns.
+          Water bodies were hydro-flattened to ensure uniform elevation across the feature. DEMs
+          were created using QCoherent LP360 software. The bare-earth LAS data was loaded into the
+          software along with the tile layout and hydro shapefile collected from the LAS data set.
+          DEMS were produced at a 5ft cell size and hydro-flattened. To QC the DEMs Global Mapper
+          was used to check for completeness of the tiles and that the hydro features were flattened
+          and represented correct elevations. Once the QC was complete the files were exported out
+          of ArcGIS to create Arc DEM. COLLECTION DATES: 4/25/18, 4/26/18, 4/29/18, 4/30/18,
+          5/01/18, 6/05/18, 6/06/18, 6/22/18, 12/05/18173 flight lines of data were collected.
+        </procdesc>
+        <procdate>
+          2018
+        </procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>
+                GPI Geospatial Inc.
+              </cntorg>
+              <cntper>
+                Iarelis D. Hall, PSM
+              </cntper>
+            </cntorgp>
+            <cntpos>
+              Assistant Vice President of Surveying and Mapping Operations of South Florida
+            </cntpos>
+            <cntaddr>
+              <addrtype>
+                mailing and physical
+              </addrtype>
+              <address>
+                423 S Keller Rd Suite #300
+              </address>
+              <city>
+                Orlando
+              </city>
+              <state>
+                Florida
+              </state>
+              <postal>
+                32810
+              </postal>
+              <country>
+                US
+              </country>
+            </cntaddr>
+            <cntvoice>
+              407-937-1522
+            </cntvoice>
+            <cntemail>
+              ihall@gpinet.com
+            </cntemail>
+            <hours>
+              0800 - 1700
+            </hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>
+      Vector
+    </direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>
+          Entity point
+        </sdtstype>
+        <ptvctcnt>
+          1
+        </ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>
+            Transverse Mercator
+          </mapprojn>
+          <transmer>
+            <sfctrmer>
+              0.99994118
+            </sfctrmer>
+            <longcm>
+              -81
+            </longcm>
+            <latprjo>
+              24.33333333333333
+            </latprjo>
+            <feast>
+              656166.6666666665
+            </feast>
+            <fnorth>
+              0.0
+            </fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>
+            coordinate pair
+          </plance>
+          <coordrep>
+            <absres>
+              0.00032808333333333333
+            </absres>
+            <ordres>
+              0.00032808333333333333
+            </ordres>
+          </coordrep>
+          <plandu>
+            US FEET
+          </plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>
+          North American 1983 (2011)
+        </horizdn>
+        <ellips>
+          GRS 1980
+        </ellips>
+        <semiaxis>
+          6378137.0
+        </semiaxis>
+        <denflat>
+          298.257222101
+        </denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+          dem_5ft
+        </enttypl>
+        <enttypd>
+          DEM raster dataset for Miami-Dade County* Pixel depth 32* Compression type None* Number of
+          bands 1* Raster format GRID* Source type continuous* Pixel type floating point
+        </enttypd>
+        <enttypds>2018 LiDAR data collected by GPI Geospatial Inc. model keys.</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Miami-Dade County Information Technology Department (ITD)</cntorg>
+          <cntper>Mapping &amp; GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>5680 SW 87th Avenue</address>
+          <city>Miami</city>
+          <state>FL</state>
+          <postal>33173</postal>
+        </cntaddr>
+        <cntvoice>305-596-8398</cntvoice>
+      </cntinfo>
+    </distrib>
+    <resdesc>Data are available from ITD on a request basis. Raster Dataset</resdesc>
+    <distliab>Translation of files to formats other than those described here is the sole responsibility of individuals downloading the data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>raster dataset</formname>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>Digital</offmedia>
+            <recfmt>Digital</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>Miami-Dade County offers the imagery free of charge; cost is associated to reproduction time and materials.</fees>
+      <ordering>Contact Mapping and GIS</ordering>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20191004</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>GPI Geospatial Inc.</cntorg>
+          <cntper>Iarelis D. Hall, PSM</cntper>
+        </cntorgp>
+        <cntpos>Assistant Vice President</cntpos>
+        <cntaddr>
+          <addrtype>423 S Keller Rd. #300</addrtype>
+          <city>Orlando</city>
+          <state>FL</state>
+          <postal>32810</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>407-937-1522</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
