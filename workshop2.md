@@ -92,6 +92,8 @@ To export the 3D contours to DXF, right-click the layer > Export > Save features
 
 Georeferencing is the process of adding location information to an image so that it can be displayed in the correct location on a map, with the proper scale and rotation.  The process involves defining a set of control points that can be identified on both the image and a basemap.
 
+## HOLC "redlining map"
+
 The 1937 HOLC "redlining" map of Miami is a good example to start with.  This map shows a grading of neighborhoods for credit risk that were created by the federal government's Home Owners' Loan Corporation (HOLC).  These maps are notorious for being biased against neighborhoods having larger numbers of racial and ethnic minority residents, and prevented these populations from having equal access to bank loans.  The maps for Miami and many other US cities can be downloaded from the "Mapping Inequality" project:
 <https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58&text=downloads>
 
@@ -102,7 +104,7 @@ Let's start by adding a satellite basemap and use its CRS to use as a reference:
 
 Open and configure the Georeferencer:
 
-* Raster menu > Georeferencer
+* Layer menu > Georeferencer
 * File > Open Raster...
   * data/historical-maps/holc-scan.tif
 * Settings menu > Transformation settings...
@@ -128,4 +130,13 @@ When you think you have enough good points:
 
 It may take a moment to warp the image to fit the control points and output the file.  When done, it should display in the main QGIS window.
 
-The `historical-maps` folder also has some Sanborn fire insurance maps from 1918.  These are a bit more difficult to georeference, because they cover a smaller area and it can be difficult to find the same location on the reference basemap due to numerous street name changes and the building of the interstate highways.
+While this map is a good example for getting started with georeferencing, the work has already been done by the Mapping Inequality project.  They have georeferenced the images, and have also traced the boundaries and made them available as shapefiles or GeoJSON files (another vector data format):
+<https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58&text=downloads>
+
+
+## Sanborn fire insurance maps
+
+The `historical-maps` folder also has some Sanborn fire insurance maps from 1918, which were downloaded from the Library of Congress, which has a large collection of Sanborn maps that are out of copyright:
+https://www.loc.gov/item/sanborn01309_006/
+
+These maps are a bit more difficult to georeference, because they cover a smaller area and it can be difficult to find the same location on the reference basemap due to numerous street name changes and the construction of the interstate highways.  If you would like to use these maps, it might be best to first georeference the "index" map, which shows where in the city the individually numbered map pages are located.
