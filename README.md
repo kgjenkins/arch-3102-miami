@@ -1,4 +1,4 @@
-# arch-5115-guyana
+# arch-3102-miami
 QGIS workshops for ARCH 3102 (DuFour), focusing on Miami \
 Spring 2023
 
